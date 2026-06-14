@@ -1,0 +1,571 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+:root {
+    --corFundoNav: #fee048;
+    --corTextos: #3d3453;
+    --corFundoBody: #ffed8f;
+    --corFundoConstraste: #e9d77e;
+    --corVermelho: #e01e1e;
+    --corBordas: #369869;
+}
+
+body {
+    background-color: var(--corFundoBody);
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 300;
+    line-height: 1.6;
+}
+
+p {
+    color: var(--corTextos);
+    text-align: justify;
+}
+
+
+h1 {
+    color: var(--corTextos);
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 5rem;
+}
+
+
+/* NAV ------------------------ */
+
+nav {
+
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-color: var(--corFundoNav);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 3rem;
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid var(--corBordas);
+    z-index: 999999;
+}
+
+#navItemInicio img {
+    width: 2rem;
+}
+
+nav ul {
+    gap: 2rem;
+    display: flex;
+    list-style: none;
+    margin-bottom: 0rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--corTextos);
+    transition: color 0.2s;
+    font-size: 1rem;
+    letter-spacing: 0.08rem;
+    text-transform: uppercase;
+}
+
+nav a:hover {
+    color: rgb(87, 87, 87);
+}
+
+/* INICIO ----------------------------------- */
+
+#inicio {
+    min-height: 100vh;
+    padding: 5rem 0 0 0;
+    display: flex;
+    flex-direction: row;
+}
+
+#inicioText {
+    width: 60%;
+    display: flex;
+    padding: 5rem;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+#inicioIMG {
+    width: 40%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#inicioIMG img {
+    width: 25rem;
+    height: 25rem;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0px 0px 20px 3px rgb(56, 163, 101);
+
+}
+
+
+#inicio p {
+    max-width: 34rem;
+    text-align: justify;
+
+}
+
+
+/* CAMPEOES ------------------------------- */
+
+#campeoes {
+    background-color: var(--corFundoConstraste);
+    min-height: 60vh;
+
+    padding: 4rem;
+
+    border-top: 1px solid var(--corBordas);
+    border-bottom: 1px solid var(--corBordas);
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+}
+
+#carouselExampleIndicators {
+    width: 100%;
+    max-width: 1200px;
+}
+
+.selecoes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 3rem;
+
+    background-color: var(--corFundoBody);
+
+    border-radius: 22px;
+
+    width: 100%;
+
+    padding: 2rem 3rem;
+    margin-bottom: 1rem;
+}
+
+#campeoes img {
+    width: 50rem;
+    height: 20rem;
+    max-width: 500px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.textos {
+    flex: 1;
+    max-width: 400px;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 8%;
+}
+
+.carousel-indicators button {
+    background-color: #2f9e44 !important;
+    /* cor normal */
+}
+
+.carousel-indicators .active {
+    background-color: #14532d !important;
+    /* cor da ativa */
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(52%) sepia(95%) saturate(400%) hue-rotate(100deg);
+}
+
+/* HABILIDADES ------------------------*/
+
+#habilidades {
+    min-height: 88.2vh;
+    padding: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.cardsContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+    gap: 1rem;
+}
+
+.card {
+    background-color: var(--corFundoConstraste);
+    border: 1px solid var(--corBordas);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem;
+    gap: 1rem;
+    transition: all .2s ease;
+    aspect-ratio: 1 / 1;
+}
+
+.card img {
+    width: 4rem;
+    height: 4rem;
+    object-fit: contain;
+}
+
+.card h2 {
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    border-color: var(--corVermelho);
+    box-shadow: 0 0 15px rgba(224, 30, 30, 0.15);
+    cursor: pointer;
+}
+
+/* experiencia ------------------------------- */
+
+#experiencias {
+    background-color: var(--corFundoConstraste);
+    border-top: 1px solid var(--corBordas);
+    border-bottom: 1px solid var(--corBordas);
+    min-height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem;
+}
+
+#experienciasContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+#experienciasContainer .cardExperiencia {
+    background-color: var(--corFundoBody);
+    flex-direction: row;
+    display: flex;
+    border: 1px solid var(--corBordas);
+    border-radius: 8px;
+    padding: 1.5rem;
+    gap: 1rem;
+    transition: all .2s ease;
+
+}
+
+#experiencias h2 {
+    color: white;
+}
+
+#experiencias img {
+    width: 7rem;
+    height: 7rem;
+    object-fit: cover;
+    border-radius: 0.2rem;
+}
+
+#experiencias .cardExperiencia:hover {
+    transform: translateY(-2px);
+    border-color: var(--corVermelho);
+    box-shadow: 0 0 15px rgba(224, 30, 30, 0.15);
+    cursor: pointer;
+}
+
+/* formacao ------------------------------- */
+
+#formacao {
+    min-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem;
+}
+
+#formacaoContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 4rem;
+}
+
+.cardFormacao {
+    text-decoration: none;
+    background-color: var(--corFundoConstraste);
+    border: 1px solid var(--corBordas);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem;
+    gap: 0.5rem;
+    transition: all .2s ease;
+    aspect-ratio: 1 / 1;
+}
+
+.cardFormacao img {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 0.4rem;
+    object-fit: cover;
+}
+
+
+.cardFormacao h2 {
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.cardFormacao:hover {
+    transform: translateY(-2px);
+    border-color: var(--corVermelho);
+    box-shadow: 0 0 15px rgba(224, 30, 30, 0.15);
+}
+
+/* contato ------------------------------- */
+
+#contato {
+    background-color: var(--corFundoConstraste);
+    min-height: 60vh;
+    padding: 2rem;
+    border-top: 1px solid var(--corBordas);
+    border-bottom: 1px solid var(--corBordas);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+#contato #contatosContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+#contato a {
+    text-decoration: none;
+    background-color: var(--corFundoBody);
+    border: 1px solid var(--corBordas);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    padding: 1.5rem;
+    gap: 1rem;
+    transition: all .2s ease;
+}
+
+#contato h2 {
+    color: white;
+}
+
+#contato img {
+    width: 4rem;
+    height: 4rem;
+    object-fit: contain;
+}
+
+#contato a:hover {
+    transform: translateY(-2px);
+    border-color: var(--corVermelho);
+    box-shadow:
+        0 0 15px rgba(224, 30, 30, 0.15);
+}
+
+/* footer --------------------------- */
+
+footer {
+    padding: 0.7rem;
+    display: flex;
+    justify-content: center;
+}
+
+/* TABLET ------------------------------------- */
+@media (max-width: 1024px) {
+
+    #inicio {
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+        padding: 7rem 2rem 2rem;
+    }
+
+    #formacaoContainer {
+        flex-direction: column;
+    }
+
+    #inicioContent,
+    #inicioImage {
+        width: 100%;
+        text-align: center;
+        align-items: center;
+    }
+
+    #sobre,
+    #habilidades {
+        padding: 5rem;
+    }
+
+    .nomePrincipal {
+        font-size: 6rem;
+    }
+
+    .nomePrincipal:nth-child(2) {
+        margin-top: -4.5rem;
+    }
+}
+
+
+/* CELULAR ------------------------------------- */
+@media (max-width: 768px) {
+
+    /* NAV */
+
+    nav {
+        flex-direction: column;
+        gap: 1rem;
+        padding: 1rem;
+    }
+
+    nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    nav a {
+        font-size: 0.75rem;
+    }
+
+    /* INÍCIO */
+
+    #inicio {
+        min-height: auto;
+        padding-top: 10rem;
+    }
+
+    #inicioContent {
+        padding: 1rem;
+    }
+
+    .nomePrincipal {
+        font-size: 4rem;
+        line-height: 1;
+    }
+
+    .nomePrincipal:nth-child(2) {
+        margin-top: 0rem;
+    }
+
+    #inicioContent p {
+        max-width: 100%;
+    }
+
+    #inicioContent input[type="button"] {
+        min-width: 100%;
+        max-width: 100%;
+    }
+
+    #inicioImage img {
+        width: 80%;
+        max-width: 18rem;
+    }
+
+    /* SEÇÕES */
+
+    #sobre,
+    #habilidades,
+    #contato {
+        padding: 3rem 1.5rem;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    /* HABILIDADES */
+
+    .cardsContainer {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .card {
+        padding: 1rem;
+    }
+
+    .card img {
+        width: 3rem;
+        height: 3rem;
+    }
+
+    /* CONTATO */
+
+    #contatosContainer {
+        width: 100%;
+    }
+
+    #contato a {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .selecoes {
+        flex-direction: column;
+    }
+}
+
+
+/* CELULARES PEQUENOS -------------------------- */
+@media (max-width: 480px) {
+
+    .nomePrincipal {
+        font-size: 3rem;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    .cardsContainer {
+        grid-template-columns: 1fr;
+    }
+
+    #inicioImage img {
+        width: 100%;
+    }
+
+    nav ul {
+        gap: 0.5rem;
+    }
+
+    nav a {
+        font-size: 0.7rem;
+    }
+}
