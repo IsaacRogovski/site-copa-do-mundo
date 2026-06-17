@@ -25,6 +25,7 @@
                 <li><a href="#campeoes" title="Ver Habilidades">CAMPEÕES</a></li>
                 <li><a href="#selecaoCanarinho" title="Ver Experiências">BRASIL</a></li>
                 <li><a href="#convocados" title="Ver Formação">CONVOCADOS</a></li>
+                <li><a href="#localizacao" title="Ver Formação">LOCALIZAÇÃO</a></li>
                 <li><a href="#contato" title="Entre em Contato">CONTATO</a></li>
             </ul>
         </nav>
@@ -347,7 +348,7 @@
 
                     <div class="estrelas">
 
-                        <button class="estrela ativa" onclick="trocarTitulo(1958)">★</button>
+                        <button class="estrela" onclick="trocarTitulo(1958)">★</button>
 
                         <button class="estrela" onclick="trocarTitulo(1962)">★</button>
 
@@ -900,55 +901,59 @@
 
         </section>
 
-        <section id="formacao">
-            <h1>FORMAÇÃO</h1>
-            <div id="formacaoContainer">
-                <a href="https://etecitanhaem.cps.sp.gov.br/" class="cardFormacao">
-                    <img src="img/etec.webp" alt="img etec">
-                    <h2>ETEC de Itanhaém</h2>
-                    <p>Informática para a Internet</p>
-                    <p>FEV 2023 - DEZ 2025 | CONCLUÍDO</p>
-                </a>
-                <a href="https://cbt.ifsp.edu.br/" class="cardFormacao">
-                    <img src="img/ifsp.webp" alt="img ifsp">
-                    <h2>IFSP Cubatão</h2>
-                    <p>Analise e Desenvolvimento de Sistemas</p>
-                    <p>FEV 2026 - DEZ 2028 | EM ANDAMENTO</p>
-                </a>
-            </div>
-        </section>
+        <section id="localizacao">
+            <h1>LOCALIZAÇÃO</h1>
+            <div id="contatosContainer">
 
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29174.202901255678!2d-46.405145299999994!3d-23.933007399999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce1bb29bde4aeb%3A0x8b65b60dcd73ad02!2sInstituto%20Federal%20de%20Educa%C3%A7%C3%A3o%2C%20Ci%C3%AAncia%20e%20Tecnologia%20de%20S%C3%A3o%20Paulo%2C%20Campus%20Cubat%C3%A3o!5e0!3m2!1spt-BR!2sbr!4v1781654705418!5m2!1spt-BR!2sbr"
+                    width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        </section>
         <section id="contato">
             <h1>CONTATO</h1>
-            <div id="contatosContainer">
-                <a href="mailto:isaac.rogovski@gmail.com">
-                    <img src="img/gmail.webp" alt="img gmail">
-                    <div>
-                        <h2>E-MAIL</h2>
-                        <p>isaac.rogovski@gmail.com</p>
-                    </div>
-                </a>
-                <a href="https://github.com/IsaacRogovski">
-                    <img src="img/github.webp" alt="img Github">
-                    <div>
-                        <h2>GitHub</h2>
-                        <p>IsaacRogovski</p>
-                    </div>
-                </a>
-                <a href="https://linkedin.com/in/isaac-rogovski">
-                    <img src="img/linkedin.webp" alt="img linkedIn">
-                    <div>
-                        <h2>LinkedIn</h2>
-                        <p>isaac-rogovski</p>
-                    </div>
-                </a>
+
+            <form action="contato.php">
+                <input type="text" placeholder="Insira seu Nome">
+                <input type="email" required placeholder="Insira seu Email">
+                <textarea name="" id="" placeholder="Insira sua Mensagem"></textarea>
+                <div id="radioContato">
+                    <span>
+                        <input type="radio" name="melhorParte" id="parteInicio">
+                        <label for="parteInicio">Inicio</label>
+                    </span>
+                    <span>
+                        <input type="radio" name="melhorParte" id="parteCampeoes">
+                        <label for="parteInicio">Campeoes</label>
+                    </span>
+                    <span>
+                        <input type="radio" name="melhorParte" id="parteBrasil">
+                        <label for="parteInicio">Seleção Canarinho</label>
+                    </span>
+                    <span>
+                        <input type="radio" name="melhorParte" id="parteConvocados">
+                        <label for="parteInicio">Convocados</label>
+                    </span>
+                    <span>
+                        <input type="radio" name="melhorParte" id="parteLocalizacao">
+                        <label for="parteInicio">Localização</label>
+                    </span> <span>
+                        <input type="radio" name="melhorParte" id="parteContato">
+                        <label for="parteInicio">Contato</label>
+                    </span>
+                </div>
+                <input type="range" name="" id="">
+
+                <input type="submit">
+            </form>
             </div>
         </section>
 
     </main>
 
     <footer>
-        <p>© 2026 Isaac Rogovski</p>
+        <p>© 2026 Isaac Rogovski & Henrique Suarez</p>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"

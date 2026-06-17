@@ -328,12 +328,14 @@ nav a:hover {
 
 
 #convocados .carousel {
-    width: 80vh;
-    max-width: 1200px;
+    background-color: red;
+    width: 90vh;
+}
+#convocados .carousel-item{
+    width: 100;
 }
 
 .card-jogador {
-
     display: flex;
     align-items: center;
     justify-content: center;
@@ -352,9 +354,9 @@ nav a:hover {
 
 .card-jogador img {
 
-    width: 280px;
+    width: 20rem;
 
-    height: 380px;
+    height:25rem;
 
     object-fit: cover;
 
@@ -399,115 +401,64 @@ nav a:hover {
     color: var(--corTextoTitulo);
 }
 
-/* formacao ------------------------------- */
+/* localização --------------------------------- */
 
-#formacao {
-    min-height: 70vh;
+
+#localizacao{
+            min-height: 60vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 5rem;
-}
-
-#formacaoContainer {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 4rem;
-}
-
-.cardFormacao {
-    text-decoration: none;
-    background-color: var(--corFundoConstraste);
-    border: 1px solid var(--corBordas);
-    border-radius: 8px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 1.5rem;
-    gap: 0.5rem;
-    transition: all .2s ease;
-    aspect-ratio: 1 / 1;
-}
-
-.cardFormacao img {
-    width: 10rem;
-    height: 10rem;
-    border-radius: 0.4rem;
-    object-fit: cover;
+    padding: 2rem;
 }
 
 
-.cardFormacao h2 {
-    color: white;
-    font-size: 1rem;
-    font-weight: bold;
-}
-
-.cardFormacao:hover {
-    transform: translateY(-2px);
-    border-color: var(--corVermelho);
-    box-shadow: 0 0 15px rgba(224, 30, 30, 0.15);
-}
 
 /* contato ------------------------------- */
 
 #contato {
-    background-color: var(--corFundoConstraste);
+
+        background-color: var(--corFundoConstraste);
     min-height: 60vh;
+
     padding: 2rem;
+
     border-top: 1px solid var(--corBordas);
     border-bottom: 1px solid var(--corBordas);
+
     display: flex;
     flex-direction: column;
-    justify-content: center;
+
     align-items: center;
-    gap: 0.5rem;
+    justify-content: center;
 }
 
-#contato #contatosContainer {
+#contato form{
     display: flex;
+    align-items: center;
     flex-direction: column;
-    gap: 0.5rem;
+    gap: 1rem;
 }
-
-#contato a {
-    text-decoration: none;
-    background-color: var(--corFundoBody);
-    border: 1px solid var(--corBordas);
-    border-radius: 8px;
+#radioContato{
     display: flex;
     flex-direction: row;
-    padding: 1.5rem;
-    gap: 1rem;
-    transition: all .2s ease;
+    gap: 0.5rem;
 }
 
-#contato h2 {
-    color: white;
-}
 
-#contato img {
-    width: 4rem;
-    height: 4rem;
-    object-fit: contain;
-}
 
-#contato a:hover {
-    transform: translateY(-2px);
-    border-color: var(--corVermelho);
-    box-shadow:
-        0 0 15px rgba(224, 30, 30, 0.15);
-}
 
 /* footer --------------------------- */
 
 footer {
     padding: 0.7rem;
+
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+
+    align-items: center;
+
 }
 
 /* TABLET ------------------------------------- */
