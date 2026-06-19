@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
@@ -18,35 +18,31 @@
 <body>
 
     <header>
-
         <nav>
-            <a id="navItemInicio" href="#" title="Voltar ao Inicio"><img src="img/cbf.svg" alt=""></a>
-            <ul>
-                <li><a href="#campeoes" title="Ver Habilidades">CAMPEÕES</a></li>
-                <li><a href="#selecaoCanarinho" title="Ver Experiências">BRASIL</a></li>
-                <li><a href="#convocados" title="Ver Formação">CONVOCADOS</a></li>
-                <li><a href="#localizacao" title="Ver Formação">LOCALIZAÇÃO</a></li>
-                <li><a href="#contato" title="Entre em Contato">CONTATO</a></li>
+            <a id="navItemInicio" href="#" title="Voltar ao Inicio"><img src="img/cbf.svg" alt="Logo CBF"></a>
+            <button class="nav-toggle" id="navToggle" aria-label="Abrir menu">&#9776;</button>
+            <ul id="navMenu">
+                <li><a href="#campeoes">CAMPEÕES</a></li>
+                <li><a href="#selecaoCanarinho">BRASIL</a></li>
+                <li><a href="#convocados">CONVOCADOS</a></li>
+                <li><a href="#localizacao">LOCALIZAÇÃO</a></li>
+                <li><a href="#contato">CONTATO</a></li>
             </ul>
         </nav>
-
     </header>
 
     <main>
 
+        <!-- INICIO -->
         <section id="inicio">
             <div id="inicioText">
                 <h1>Copa do Mundo 2026</h1>
-                <p> Lorem ipsum dolor sit amet consectetur adipiscing elit mattis aliquet, pharetra taciti
-                    pellentesque
-                    iaculis tristique hendrerit vestibulum porta, dignissim est magnis habitant bibendum nec
-                    ultrices
+                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit mattis aliquet, pharetra taciti pellentesque
+                    iaculis tristique hendrerit vestibulum porta, dignissim est magnis habitant bibendum nec ultrices
                     eu. Et nulla etiam nam dis ad pulvinar consequat luctus, elit hendrerit aliquet interdum duis
                     eleifend vehicula, euismod sed aenean bibendum sit amet fames.</p>
-                <p> Lorem ipsum dolor sit amet consectetur adipiscing elit mattis aliquet, pharetra taciti
-                    pellentesque
-                    iaculis tristique hendrerit vestibulum porta, dignissim est magnis habitant bibendum nec
-                    ultrices
+                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit mattis aliquet, pharetra taciti pellentesque
+                    iaculis tristique hendrerit vestibulum porta, dignissim est magnis habitant bibendum nec ultrices
                     eu. Et nulla etiam nam dis ad pulvinar consequat luctus, elit hendrerit aliquet interdum duis
                     eleifend vehicula, euismod sed aenean bibendum sit amet fames.</p>
             </div>
@@ -54,103 +50,79 @@
                 <img src="img/logo copa.webp" title="Foto Copa" alt="Foto logo copa">
             </div>
         </section>
-        </section>
 
+        <!-- CAMPEOES -->
         <section id="campeoes">
             <h1>CAMPEÕES</h1>
 
-            <div id="carouselCampeoes" class="carousel slide">
+            <div id="carouselCampeoes" class="carousel slide" data-bs-ride="false">
                 <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselCampeoes" data-bs-slide-to="0" class="active"
-                        aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselCampeoes" data-bs-slide-to="1"
-                        aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselCampeoes" data-bs-slide-to="2"
-                        aria-label="Slide 3"></button>
-                    <button type="button" data-bs-target="#carouselCampeoes" data-bs-slide-to="3"
-                        aria-label="Slide 4"></button>
-                    <button type="button" data-bs-target="#carouselCampeoes" data-bs-slide-to="4"
-                        aria-label="Slide 5"></button>
-                    <button type="button" data-bs-target="#carouselCampeoes" data-bs-slide-to="5"
-                        aria-label="Slide 6"></button>
-                    <button type="button" data-bs-target="#carouselCampeoes" data-bs-slide-to="6"
-                        aria-label="Slide 7"></button>
-                    <button type="button" data-bs-target="#carouselCampeoes" data-bs-slide-to="7"
-                        aria-label="Slide 8"></button>
-                    <button type="button" data-bs-target="#carouselCampeoes" data-bs-slide-to="8"
-                        aria-label="Slide 9"></button>
-                    <button type="button" data-bs-target="#carouselCampeoes" data-bs-slide-to="9"
-                        aria-label="Slide 10"></button>
-                    <button type="button" data-bs-target="#carouselCampeoes" data-bs-slide-to="10"
-                        aria-label="Slide 11"></button>
-                    <button type="button" data-bs-target="#carouselCampeoes" data-bs-slide-to="11"
-                        aria-label="Slide 12"></button>
-                    <button type="button" data-bs-target="#carouselCampeoes" data-bs-slide-to="12"
-                        aria-label="Slide 13"></button>
-                    <button type="button" data-bs-target="#carouselCampeoes" data-bs-slide-to="13"
-                        aria-label="Slide 14"></button>
-                    <button type="button" data-bs-target="#carouselCampeoes" data-bs-slide-to="14"
-                        aria-label="Slide 15"></button>
-                    <button type="button" data-bs-target="#carouselCampeoes" data-bs-slide-to="15"
-                        aria-label="Slide 16"></button>
-                    <button type="button" data-bs-target="#carouselCampeoes" data-bs-slide-to="16"
-                        aria-label="Slide 17"></button>
-                    <button type="button" data-bs-target="#carouselCampeoes" data-bs-slide-to="17"
-                        aria-label="Slide 18"></button>
-                    <button type="button" data-bs-target="#carouselCampeoes" data-bs-slide-to="18"
-                        aria-label="Slide 19"></button>
-                    <button type="button" data-bs-target="#carouselCampeoes" data-bs-slide-to="19"
-                        aria-label="Slide 20"></button>
+                    <button type="button" data-bs-target="#carouselCampeoes" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselCampeoes" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselCampeoes" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselCampeoes" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                    <button type="button" data-bs-target="#carouselCampeoes" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                    <button type="button" data-bs-target="#carouselCampeoes" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                    <button type="button" data-bs-target="#carouselCampeoes" data-bs-slide-to="6" aria-label="Slide 7"></button>
+                    <button type="button" data-bs-target="#carouselCampeoes" data-bs-slide-to="7" aria-label="Slide 8"></button>
+                    <button type="button" data-bs-target="#carouselCampeoes" data-bs-slide-to="8" aria-label="Slide 9"></button>
+                    <button type="button" data-bs-target="#carouselCampeoes" data-bs-slide-to="9" aria-label="Slide 10"></button>
+                    <button type="button" data-bs-target="#carouselCampeoes" data-bs-slide-to="10" aria-label="Slide 11"></button>
+                    <button type="button" data-bs-target="#carouselCampeoes" data-bs-slide-to="11" aria-label="Slide 12"></button>
+                    <button type="button" data-bs-target="#carouselCampeoes" data-bs-slide-to="12" aria-label="Slide 13"></button>
+                    <button type="button" data-bs-target="#carouselCampeoes" data-bs-slide-to="13" aria-label="Slide 14"></button>
+                    <button type="button" data-bs-target="#carouselCampeoes" data-bs-slide-to="14" aria-label="Slide 15"></button>
+                    <button type="button" data-bs-target="#carouselCampeoes" data-bs-slide-to="15" aria-label="Slide 16"></button>
+                    <button type="button" data-bs-target="#carouselCampeoes" data-bs-slide-to="16" aria-label="Slide 17"></button>
+                    <button type="button" data-bs-target="#carouselCampeoes" data-bs-slide-to="17" aria-label="Slide 18"></button>
+                    <button type="button" data-bs-target="#carouselCampeoes" data-bs-slide-to="18" aria-label="Slide 19"></button>
+                    <button type="button" data-bs-target="#carouselCampeoes" data-bs-slide-to="19" aria-label="Slide 20"></button>
                 </div>
                 <div class="carousel-inner">
 
                     <div class="carousel-item active">
                         <div class="selecoes">
-                            <img src="img/selecoes/1930.webp" alt="imagem seleção uruguai 1930">
+                            <img src="img/selecoes/1930.webp" alt="Uruguai 1930">
                             <div class="textos">
                                 <h2>Uruguai 1930</h2>
-                                <p>Primeira seleção campeã da história das Copas do Mundo. O Uruguai venceu a Argentina
-                                    por 4 a 2 na final.</p>
+                                <p>Primeira seleção campeã da história das Copas do Mundo. O Uruguai venceu a Argentina por 4 a 2 na final.</p>
                             </div>
                         </div>
                     </div>
 
                     <div class="carousel-item">
                         <div class="selecoes">
-                            <img src="img/selecoes/1950.webp" alt="imagem seleção uruguai 1950">
+                            <img src="img/selecoes/1950.webp" alt="Uruguai 1950">
                             <div class="textos">
                                 <h2>Uruguai 1950</h2>
-                                <p>Campeão no histórico Maracanazo. O Uruguai derrotou o Brasil por 2 a 1 no Maracanã.
-                                </p>
+                                <p>Campeão no histórico Maracanazo. O Uruguai derrotou o Brasil por 2 a 1 no Maracanã.</p>
                             </div>
                         </div>
                     </div>
 
                     <div class="carousel-item">
                         <div class="selecoes">
-                            <img src="img/selecoes/1954.webp" alt="imagem seleção alemanha ocidental 1954">
+                            <img src="img/selecoes/1954.webp" alt="Alemanha Ocidental 1954">
                             <div class="textos">
                                 <h2>Alemanha Ocidental 1954</h2>
-                                <p>Primeiro título alemão. A equipe venceu a poderosa Hungria no chamado Milagre de
-                                    Berna.</p>
+                                <p>Primeiro título alemão. A equipe venceu a poderosa Hungria no chamado Milagre de Berna.</p>
                             </div>
                         </div>
                     </div>
 
                     <div class="carousel-item">
                         <div class="selecoes">
-                            <img src="img/selecoes/1958.webp" alt="imagem seleção brasil 1958">
+                            <img src="img/selecoes/1958.webp" alt="Brasil 1958">
                             <div class="textos">
                                 <h2>Brasil 1958</h2>
-                                <p>Primeiro título do Brasil e a consagração mundial de Pelé, então com apenas 17 anos.
-                                </p>
+                                <p>Primeiro título do Brasil e a consagração mundial de Pelé, então com apenas 17 anos.</p>
                             </div>
                         </div>
                     </div>
 
                     <div class="carousel-item">
                         <div class="selecoes">
-                            <img src="img/selecoes/1962.webp" alt="imagem seleção brasil 1962">
+                            <img src="img/selecoes/1962.webp" alt="Brasil 1962">
                             <div class="textos">
                                 <h2>Brasil 1962</h2>
                                 <p>Bicampeão mundial. Garrincha liderou a equipe rumo ao segundo título consecutivo.</p>
@@ -160,18 +132,17 @@
 
                     <div class="carousel-item">
                         <div class="selecoes">
-                            <img src="img/selecoes/1966.webp" alt="imagem seleção inglaterra 1966">
+                            <img src="img/selecoes/1966.webp" alt="Inglaterra 1966">
                             <div class="textos">
                                 <h2>Inglaterra 1966</h2>
-                                <p>Único título inglês. A equipe venceu a Alemanha Ocidental por 4 a 2 na final em
-                                    Wembley.</p>
+                                <p>Único título inglês. A equipe venceu a Alemanha Ocidental por 4 a 2 na final em Wembley.</p>
                             </div>
                         </div>
                     </div>
 
                     <div class="carousel-item">
                         <div class="selecoes">
-                            <img src="img/selecoes/1970.webp" alt="imagem seleção brasil 1970">
+                            <img src="img/selecoes/1970.webp" alt="Brasil 1970">
                             <div class="textos">
                                 <h2>Brasil 1970</h2>
                                 <p>Primeiro tricampeão mundial. Considerada por muitos a melhor seleção da história.</p>
@@ -181,18 +152,17 @@
 
                     <div class="carousel-item">
                         <div class="selecoes">
-                            <img src="img/selecoes/1974.webp" alt="imagem seleção alemanha ocidental 1974">
+                            <img src="img/selecoes/1974.webp" alt="Alemanha Ocidental 1974">
                             <div class="textos">
                                 <h2>Alemanha Ocidental 1974</h2>
-                                <p>Segundo título alemão, liderado por Franz Beckenbauer diante da Holanda de Cruyff.
-                                </p>
+                                <p>Segundo título alemão, liderado por Franz Beckenbauer diante da Holanda de Cruyff.</p>
                             </div>
                         </div>
                     </div>
 
                     <div class="carousel-item">
                         <div class="selecoes">
-                            <img src="img/selecoes/1978.webp" alt="imagem seleção argentina 1978">
+                            <img src="img/selecoes/1978.webp" alt="Argentina 1978">
                             <div class="textos">
                                 <h2>Argentina 1978</h2>
                                 <p>Primeiro título argentino. A equipe venceu a Holanda por 3 a 1 na final.</p>
@@ -202,18 +172,17 @@
 
                     <div class="carousel-item">
                         <div class="selecoes">
-                            <img src="img/selecoes/1982.webp" alt="imagem seleção italia 1982">
+                            <img src="img/selecoes/1982.webp" alt="Itália 1982">
                             <div class="textos">
                                 <h2>Itália 1982</h2>
-                                <p>Terceiro título italiano, com destaque para Paolo Rossi, artilheiro da competição.
-                                </p>
+                                <p>Terceiro título italiano, com destaque para Paolo Rossi, artilheiro da competição.</p>
                             </div>
                         </div>
                     </div>
 
                     <div class="carousel-item">
                         <div class="selecoes">
-                            <img src="img/selecoes/1986.webp" alt="imagem seleção argentina 1986">
+                            <img src="img/selecoes/1986.webp" alt="Argentina 1986">
                             <div class="textos">
                                 <h2>Argentina 1986</h2>
                                 <p>Maradona brilhou no México e conduziu a Argentina ao seu segundo título mundial.</p>
@@ -223,7 +192,7 @@
 
                     <div class="carousel-item">
                         <div class="selecoes">
-                            <img src="img/selecoes/1990.webp" alt="imagem seleção alemanha 1990">
+                            <img src="img/selecoes/1990.webp" alt="Alemanha 1990">
                             <div class="textos">
                                 <h2>Alemanha 1990</h2>
                                 <p>Terceiro título alemão. A equipe venceu a Argentina por 1 a 0 na decisão.</p>
@@ -233,18 +202,17 @@
 
                     <div class="carousel-item">
                         <div class="selecoes">
-                            <img src="img/selecoes/1994.webp" alt="imagem seleção brasil 1994">
+                            <img src="img/selecoes/1994.webp" alt="Brasil 1994">
                             <div class="textos">
                                 <h2>Brasil 1994</h2>
-                                <p>Primeiro tetracampeão da história. O título veio após vitória nos pênaltis sobre a
-                                    Itália.</p>
+                                <p>Primeiro tetracampeão da história. O título veio após vitória nos pênaltis sobre a Itália.</p>
                             </div>
                         </div>
                     </div>
 
                     <div class="carousel-item">
                         <div class="selecoes">
-                            <img src="img/selecoes/1998.webp" alt="imagem seleção franca 1998">
+                            <img src="img/selecoes/1998.webp" alt="França 1998">
                             <div class="textos">
                                 <h2>França 1998</h2>
                                 <p>Primeiro título francês. Zidane marcou dois gols na vitória sobre o Brasil.</p>
@@ -254,7 +222,7 @@
 
                     <div class="carousel-item">
                         <div class="selecoes">
-                            <img src="img/selecoes/2002.webp" alt="imagem seleção brasil 2002">
+                            <img src="img/selecoes/2002.webp" alt="Brasil 2002">
                             <div class="textos">
                                 <h2>Brasil 2002</h2>
                                 <p>Pentacampeão mundial. Ronaldo marcou dois gols na final contra a Alemanha.</p>
@@ -264,7 +232,7 @@
 
                     <div class="carousel-item">
                         <div class="selecoes">
-                            <img src="img/selecoes/2006.webp" alt="imagem seleção italia 2006">
+                            <img src="img/selecoes/2006.webp" alt="Itália 2006">
                             <div class="textos">
                                 <h2>Itália 2006</h2>
                                 <p>Quarto título italiano. A decisão foi vencida nos pênaltis contra a França.</p>
@@ -274,18 +242,17 @@
 
                     <div class="carousel-item">
                         <div class="selecoes">
-                            <img src="img/selecoes/2010.webp" alt="imagem seleção espanha 2010">
+                            <img src="img/selecoes/2010.webp" alt="Espanha 2010">
                             <div class="textos">
                                 <h2>Espanha 2010</h2>
-                                <p>Primeiro título espanhol. Iniesta marcou o gol decisivo na prorrogação contra a
-                                    Holanda.</p>
+                                <p>Primeiro título espanhol. Iniesta marcou o gol decisivo na prorrogação contra a Holanda.</p>
                             </div>
                         </div>
                     </div>
 
                     <div class="carousel-item">
                         <div class="selecoes">
-                            <img src="img/selecoes/2014.webp" alt="imagem seleção alemanha 2014">
+                            <img src="img/selecoes/2014.webp" alt="Alemanha 2014">
                             <div class="textos">
                                 <h2>Alemanha 2014</h2>
                                 <p>Quarto título alemão. A campanha incluiu o histórico 7 a 1 sobre o Brasil.</p>
@@ -295,7 +262,7 @@
 
                     <div class="carousel-item">
                         <div class="selecoes">
-                            <img src="img/selecoes/2018.webp" alt="imagem seleção franca 2018">
+                            <img src="img/selecoes/2018.webp" alt="França 2018">
                             <div class="textos">
                                 <h2>França 2018</h2>
                                 <p>Segundo título francês. Mbappé foi um dos grandes destaques da campanha.</p>
@@ -305,143 +272,93 @@
 
                     <div class="carousel-item">
                         <div class="selecoes">
-                            <img src="img/selecoes/2022.webp" alt="imagem seleção argentina 2022">
+                            <img src="img/selecoes/2022.webp" alt="Argentina 2022">
                             <div class="textos">
                                 <h2>Argentina 2022</h2>
-                                <p>Terceiro título argentino. Messi conquistou a Copa em uma final histórica contra a
-                                    França.</p>
+                                <p>Terceiro título argentino. Messi conquistou a Copa em uma final histórica contra a França.</p>
                             </div>
                         </div>
                     </div>
 
                 </div>
 
-
-
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselCampeoes"
-                    data-bs-slide="prev">
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselCampeoes" data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
+                    <span class="visually-hidden">Anterior</span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselCampeoes"
-                    data-bs-slide="next">
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselCampeoes" data-bs-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
+                    <span class="visually-hidden">Próximo</span>
                 </button>
             </div>
 
         </section>
 
+        <!-- SELECAO CANARINHO -->
         <section id="selecaoCanarinho">
-
             <div class="conteudo">
-
                 <div class="texto">
                     <h1 id="titulo">SELEÇÃO CANARINHO</h1>
-
-                    <p id="descricao">
-                        Clique em uma das estrelas para conhecer cada conquista da Seleção Brasileira.
-                    </p>
+                    <p id="descricao">Clique em uma das estrelas para conhecer cada conquista da Seleção Brasileira.</p>
                 </div>
-
                 <div class="imagemArea">
-
                     <div class="estrelas">
-
                         <button class="estrela" onclick="trocarTitulo(1958)">★</button>
-
                         <button class="estrela" onclick="trocarTitulo(1962)">★</button>
-
                         <button class="estrela" onclick="trocarTitulo(1970)">★</button>
-
                         <button class="estrela" onclick="trocarTitulo(1994)">★</button>
-
                         <button class="estrela" onclick="trocarTitulo(2002)">★</button>
-
                     </div>
-
                     <img src="img/brasil.png" alt="Bandeira do Brasil">
-
                 </div>
-
             </div>
-
         </section>
 
+        <!-- CONVOCADOS -->
         <section id="convocados">
-            <h1>Convocados</h1>
-            <div id="carouselConvocados" class="carousel slide">
+            <h1>CONVOCADOS</h1>
+            <div id="carouselConvocados" class="carousel slide" data-bs-ride="false">
                 <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselConvocados" data-bs-slide-to="0" class="active"
-                        aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselConvocados" data-bs-slide-to="1"
-                        aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselConvocados" data-bs-slide-to="2"
-                        aria-label="Slide 3"></button>
-                    <button type="button" data-bs-target="#carouselConvocados" data-bs-slide-to="3"
-                        aria-label="Slide 4"></button>
-                    <button type="button" data-bs-target="#carouselConvocados" data-bs-slide-to="4"
-                        aria-label="Slide 5"></button>
-                    <button type="button" data-bs-target="#carouselConvocados" data-bs-slide-to="5"
-                        aria-label="Slide 6"></button>
-                    <button type="button" data-bs-target="#carouselConvocados" data-bs-slide-to="6"
-                        aria-label="Slide 7"></button>
-                    <button type="button" data-bs-target="#carouselConvocados" data-bs-slide-to="7"
-                        aria-label="Slide 8"></button>
-                    <button type="button" data-bs-target="#carouselConvocados" data-bs-slide-to="8"
-                        aria-label="Slide 9"></button>
-                    <button type="button" data-bs-target="#carouselConvocados" data-bs-slide-to="9"
-                        aria-label="Slide 10"></button>
-                    <button type="button" data-bs-target="#carouselConvocados" data-bs-slide-to="10"
-                        aria-label="Slide 11"></button>
-                    <button type="button" data-bs-target="#carouselConvocados" data-bs-slide-to="11"
-                        aria-label="Slide 12"></button>
-                    <button type="button" data-bs-target="#carouselConvocados" data-bs-slide-to="12"
-                        aria-label="Slide 13"></button>
-                    <button type="button" data-bs-target="#carouselConvocados" data-bs-slide-to="13"
-                        aria-label="Slide 14"></button>
-                    <button type="button" data-bs-target="#carouselConvocados" data-bs-slide-to="14"
-                        aria-label="Slide 15"></button>
-                    <button type="button" data-bs-target="#carouselConvocados" data-bs-slide-to="15"
-                        aria-label="Slide 16"></button>
-                    <button type="button" data-bs-target="#carouselConvocados" data-bs-slide-to="16"
-                        aria-label="Slide 17"></button>
-                    <button type="button" data-bs-target="#carouselConvocados" data-bs-slide-to="17"
-                        aria-label="Slide 18"></button>
-                    <button type="button" data-bs-target="#carouselConvocados" data-bs-slide-to="18"
-                        aria-label="Slide 19"></button>
-                    <button type="button" data-bs-target="#carouselConvocados" data-bs-slide-to="19"
-                        aria-label="Slide 20"></button>
-                    <button type="button" data-bs-target="#carouselConvocados" data-bs-slide-to="20"
-                        aria-label="Slide 21"></button>
-                    <button type="button" data-bs-target="#carouselConvocados" data-bs-slide-to="21"
-                        aria-label="Slide 22"></button>
-                    <button type="button" data-bs-target="#carouselConvocados" data-bs-slide-to="22"
-                        aria-label="Slide 23"></button>
-                    <button type="button" data-bs-target="#carouselConvocados" data-bs-slide-to="23"
-                        aria-label="Slide 24"></button>
-                    <button type="button" data-bs-target="#carouselConvocados" data-bs-slide-to="24"
-                        aria-label="Slide 25"></button>
-                    <button type="button" data-bs-target="#carouselConvocados" data-bs-slide-to="25"
-                        aria-label="Slide 26"></button>
+                    <button type="button" data-bs-target="#carouselConvocados" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselConvocados" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselConvocados" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselConvocados" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                    <button type="button" data-bs-target="#carouselConvocados" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                    <button type="button" data-bs-target="#carouselConvocados" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                    <button type="button" data-bs-target="#carouselConvocados" data-bs-slide-to="6" aria-label="Slide 7"></button>
+                    <button type="button" data-bs-target="#carouselConvocados" data-bs-slide-to="7" aria-label="Slide 8"></button>
+                    <button type="button" data-bs-target="#carouselConvocados" data-bs-slide-to="8" aria-label="Slide 9"></button>
+                    <button type="button" data-bs-target="#carouselConvocados" data-bs-slide-to="9" aria-label="Slide 10"></button>
+                    <button type="button" data-bs-target="#carouselConvocados" data-bs-slide-to="10" aria-label="Slide 11"></button>
+                    <button type="button" data-bs-target="#carouselConvocados" data-bs-slide-to="11" aria-label="Slide 12"></button>
+                    <button type="button" data-bs-target="#carouselConvocados" data-bs-slide-to="12" aria-label="Slide 13"></button>
+                    <button type="button" data-bs-target="#carouselConvocados" data-bs-slide-to="13" aria-label="Slide 14"></button>
+                    <button type="button" data-bs-target="#carouselConvocados" data-bs-slide-to="14" aria-label="Slide 15"></button>
+                    <button type="button" data-bs-target="#carouselConvocados" data-bs-slide-to="15" aria-label="Slide 16"></button>
+                    <button type="button" data-bs-target="#carouselConvocados" data-bs-slide-to="16" aria-label="Slide 17"></button>
+                    <button type="button" data-bs-target="#carouselConvocados" data-bs-slide-to="17" aria-label="Slide 18"></button>
+                    <button type="button" data-bs-target="#carouselConvocados" data-bs-slide-to="18" aria-label="Slide 19"></button>
+                    <button type="button" data-bs-target="#carouselConvocados" data-bs-slide-to="19" aria-label="Slide 20"></button>
+                    <button type="button" data-bs-target="#carouselConvocados" data-bs-slide-to="20" aria-label="Slide 21"></button>
+                    <button type="button" data-bs-target="#carouselConvocados" data-bs-slide-to="21" aria-label="Slide 22"></button>
+                    <button type="button" data-bs-target="#carouselConvocados" data-bs-slide-to="22" aria-label="Slide 23"></button>
+                    <button type="button" data-bs-target="#carouselConvocados" data-bs-slide-to="23" aria-label="Slide 24"></button>
+                    <button type="button" data-bs-target="#carouselConvocados" data-bs-slide-to="24" aria-label="Slide 25"></button>
+                    <button type="button" data-bs-target="#carouselConvocados" data-bs-slide-to="25" aria-label="Slide 26"></button>
                 </div>
                 <div class="carousel-inner">
 
                     <div class="carousel-item active">
                         <div class="card-jogador">
                             <img src="img/convocados/alisson.webp" alt="Alisson Becker">
-
                             <div class="info-jogador">
                                 <h2>Alisson Becker</h2>
-
                                 <div class="dados">
                                     <p><strong>Time:</strong> Liverpool FC</p>
                                     <p><strong>Idade:</strong> 33 anos</p>
                                     <p><strong>Posição:</strong> Goleiro</p>
-                                    <p><strong>Títulos:</strong> Copa América 2019, Champions League 2019, Premier
-                                        League 2020.</p>
-                                    <p><strong>Resumo:</strong> Um dos goleiros mais seguros do mundo e titular da
-                                        Seleção há vários anos.</p>
+                                    <p><strong>Títulos:</strong> Copa América 2019, Champions League 2019, Premier League 2020.</p>
+                                    <p><strong>Resumo:</strong> Um dos goleiros mais seguros do mundo e titular da Seleção.</p>
                                 </div>
                             </div>
                         </div>
@@ -450,40 +367,35 @@
                     <div class="carousel-item">
                         <div class="card-jogador">
                             <img src="img/convocados/ederson.webp" alt="Ederson">
-
                             <div class="info-jogador">
                                 <h2>Ederson</h2>
-
                                 <div class="dados">
-                                    <p><strong>Time:</strong> Manchester City</p>
+                                    <p><strong>Time:</strong> Manchester City FC</p>
                                     <p><strong>Idade:</strong> 32 anos</p>
                                     <p><strong>Posição:</strong> Goleiro</p>
-                                    <p><strong>Títulos:</strong> Champions League, Premier League e Mundial de Clubes.
-                                    </p>
-                                    <p><strong>Resumo:</strong> Reconhecido pela excelente saída de bola.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- WEVERTON -->
-                    <div class="carousel-item">
-                        <div class="card-jogador">
-                            <img src="img/convocados/weverton.webp" alt="Weverton">
-                            <div class="info-jogador">
-                                <h2>Weverton</h2>
-                                <div class="dados">
-                                    <p><strong>Time:</strong> Palmeiras</p>
-                                    <p><strong>Idade:</strong> 38 anos</p>
-                                    <p><strong>Posição:</strong> Goleiro</p>
-                                    <p><strong>Títulos:</strong> Libertadores, Brasileirão, Olimpíadas 2016.</p>
-                                    <p><strong>Resumo:</strong> Um dos goleiros mais vencedores do futebol brasileiro.
-                                    </p>
+                                    <p><strong>Títulos:</strong> Premier League, Champions League 2023.</p>
+                                    <p><strong>Resumo:</strong> Goleiro moderno, habilidoso com os pés.</p>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <!-- MARQUINHOS -->
+                    <div class="carousel-item">
+                        <div class="card-jogador">
+                            <img src="img/convocados/bento.webp" alt="Bento">
+                            <div class="info-jogador">
+                                <h2>Bento</h2>
+                                <div class="dados">
+                                    <p><strong>Time:</strong> Al-Qadsiah</p>
+                                    <p><strong>Idade:</strong> 26 anos</p>
+                                    <p><strong>Posição:</strong> Goleiro</p>
+                                    <p><strong>Títulos:</strong> Copa do Brasil e Brasileirão.</p>
+                                    <p><strong>Resumo:</strong> Jovem promessa do gol brasileiro.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                     <div class="carousel-item">
                         <div class="card-jogador">
                             <img src="img/convocados/marquinhos.webp" alt="Marquinhos">
@@ -493,31 +405,13 @@
                                     <p><strong>Time:</strong> Paris Saint-Germain</p>
                                     <p><strong>Idade:</strong> 32 anos</p>
                                     <p><strong>Posição:</strong> Zagueiro</p>
-                                    <p><strong>Títulos:</strong> Diversos Campeonatos Franceses e Champions League.</p>
-                                    <p><strong>Resumo:</strong> Capitão da Seleção e referência defensiva.</p>
+                                    <p><strong>Títulos:</strong> Ligue 1 e Copa da França.</p>
+                                    <p><strong>Resumo:</strong> Capitão e líder da defesa brasileira.</p>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <!-- BREMER -->
-                    <div class="carousel-item">
-                        <div class="card-jogador">
-                            <img src="img/convocados/bremer.webp" alt="Bremer">
-                            <div class="info-jogador">
-                                <h2>Bremer</h2>
-                                <div class="dados">
-                                    <p><strong>Time:</strong> Juventus</p>
-                                    <p><strong>Idade:</strong> 29 anos</p>
-                                    <p><strong>Posição:</strong> Zagueiro</p>
-                                    <p><strong>Títulos:</strong> Campeonato Italiano.</p>
-                                    <p><strong>Resumo:</strong> Forte fisicamente e excelente no jogo aéreo.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- GABRIEL MAGALHÃES -->
                     <div class="carousel-item">
                         <div class="card-jogador">
                             <img src="img/convocados/magalhoes.webp" alt="Gabriel Magalhães">
@@ -528,14 +422,12 @@
                                     <p><strong>Idade:</strong> 28 anos</p>
                                     <p><strong>Posição:</strong> Zagueiro</p>
                                     <p><strong>Títulos:</strong> Copa da Inglaterra e Supercopa Inglesa.</p>
-                                    <p><strong>Resumo:</strong> Destaca-se pela força física e qualidade na saída de
-                                        bola.</p>
+                                    <p><strong>Resumo:</strong> Destaca-se pela força física e qualidade na saída de bola.</p>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <!-- IBAÑEZ -->
                     <div class="carousel-item">
                         <div class="card-jogador">
                             <img src="img/convocados/ibanez.webp" alt="Ibañez">
@@ -552,7 +444,6 @@
                         </div>
                     </div>
 
-                    <!-- LÉO PEREIRA -->
                     <div class="carousel-item">
                         <div class="card-jogador">
                             <img src="img/convocados/pereira.webp" alt="Léo Pereira">
@@ -569,7 +460,6 @@
                         </div>
                     </div>
 
-                    <!-- DANILO (FLAMENGO) - Lateral -->
                     <div class="carousel-item">
                         <div class="card-jogador">
                             <img src="img/convocados/danilo flamengo.webp" alt="Danilo">
@@ -586,7 +476,6 @@
                         </div>
                     </div>
 
-                    <!-- ALEX SANDRO -->
                     <div class="carousel-item">
                         <div class="card-jogador">
                             <img src="img/convocados/alex sandro.webp" alt="Alex Sandro">
@@ -603,7 +492,6 @@
                         </div>
                     </div>
 
-                    <!-- DOUGLAS SANTOS -->
                     <div class="carousel-item">
                         <div class="card-jogador">
                             <img src="img/convocados/douglas.webp" alt="Douglas Santos">
@@ -614,31 +502,28 @@
                                     <p><strong>Idade:</strong> 32 anos</p>
                                     <p><strong>Posição:</strong> Lateral-esquerdo</p>
                                     <p><strong>Títulos:</strong> Campeonato Russo.</p>
-                                    <p><strong>Resumo:</strong> Conhecido pela regularidade e qualidade nos cruzamentos.
-                                    </p>
+                                    <p><strong>Resumo:</strong> Conhecido pela regularidade e qualidade nos cruzamentos.</p>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <!-- WESLEY -->
                     <div class="carousel-item">
                         <div class="card-jogador">
                             <img src="img/convocados/ederson volante.webp" alt="Ederson">
                             <div class="info-jogador">
-                                <h2>Ederson</h2>
+                                <h2>Ederson (Volante)</h2>
                                 <div class="dados">
                                     <p><strong>Time:</strong> Atalanta</p>
                                     <p><strong>Idade:</strong> 26 anos</p>
                                     <p><strong>Posição:</strong> Volante</p>
-                                    <p><strong>Títulos:</strong> Liga Europa da UEFA</p>
+                                    <p><strong>Títulos:</strong> Liga Europa da UEFA.</p>
                                     <p><strong>Resumo:</strong> Jovem destaque e convocado após lesão de Wesley.</p>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <!-- CASEMIRO -->
                     <div class="carousel-item">
                         <div class="card-jogador">
                             <img src="img/convocados/casemiro.webp" alt="Casemiro">
@@ -648,16 +533,13 @@
                                     <p><strong>Time:</strong> Manchester United FC</p>
                                     <p><strong>Idade:</strong> 34 anos</p>
                                     <p><strong>Posição:</strong> Volante</p>
-                                    <p><strong>Títulos:</strong> 5 Champions League, Mundial de Clubes e Copa América
-                                        2019.</p>
-                                    <p><strong>Resumo:</strong> Um dos maiores volantes da história do futebol
-                                        brasileiro.</p>
+                                    <p><strong>Títulos:</strong> 5 Champions League, Mundial de Clubes e Copa América 2019.</p>
+                                    <p><strong>Resumo:</strong> Um dos maiores volantes da história do futebol brasileiro.</p>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <!-- FABINHO -->
                     <div class="carousel-item">
                         <div class="card-jogador">
                             <img src="img/convocados/fabinho.webp" alt="Fabinho">
@@ -674,25 +556,22 @@
                         </div>
                     </div>
 
-                    <!-- DANILO (NOTTINGHAM) - Volante -->
                     <div class="carousel-item">
                         <div class="card-jogador">
                             <img src="img/convocados/danilo botafogo.webp" alt="Danilo">
                             <div class="info-jogador">
-                                <h2>Danilo</h2>
+                                <h2>Danilo (Nottingham)</h2>
                                 <div class="dados">
                                     <p><strong>Time:</strong> Nottingham Forest</p>
                                     <p><strong>Idade:</strong> 25 anos</p>
                                     <p><strong>Posição:</strong> Volante</p>
                                     <p><strong>Títulos:</strong> Libertadores e Campeonato Paulista.</p>
-                                    <p><strong>Resumo:</strong> Volante moderno, com boa marcação e chegada ao ataque.
-                                    </p>
+                                    <p><strong>Resumo:</strong> Volante moderno, com boa marcação e chegada ao ataque.</p>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <!-- BRUNO GUIMARÃES -->
                     <div class="carousel-item">
                         <div class="card-jogador">
                             <img src="img/convocados/guimaraes.webp" alt="Bruno Guimarães">
@@ -703,14 +582,12 @@
                                     <p><strong>Idade:</strong> 28 anos</p>
                                     <p><strong>Posição:</strong> Meio-campista</p>
                                     <p><strong>Títulos:</strong> Copa da Liga Inglesa.</p>
-                                    <p><strong>Resumo:</strong> Responsável pela criação e organização do meio-campo.
-                                    </p>
+                                    <p><strong>Resumo:</strong> Responsável pela criação e organização do meio-campo.</p>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <!-- LUCAS PAQUETÁ -->
                     <div class="carousel-item">
                         <div class="card-jogador">
                             <img src="img/convocados/paqueta.webp" alt="Lucas Paquetá">
@@ -727,7 +604,6 @@
                         </div>
                     </div>
 
-                    <!-- NEYMAR JR. -->
                     <div class="carousel-item">
                         <div class="card-jogador">
                             <img src="img/convocados/neymar.webp" alt="Neymar Jr.">
@@ -737,15 +613,13 @@
                                     <p><strong>Time:</strong> Santos FC</p>
                                     <p><strong>Idade:</strong> 34 anos</p>
                                     <p><strong>Posição:</strong> Atacante</p>
-                                    <p><strong>Títulos:</strong> Champions League, Libertadores, Olimpíadas 2016 e
-                                        diversas ligas nacionais.</p>
+                                    <p><strong>Títulos:</strong> Champions League, Libertadores, Olimpíadas 2016 e diversas ligas nacionais.</p>
                                     <p><strong>Resumo:</strong> Maior artilheiro da história da Seleção Brasileira.</p>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <!-- VINÍCIUS JÚNIOR -->
                     <div class="carousel-item">
                         <div class="card-jogador">
                             <img src="img/convocados/vini.webp" alt="Vinícius Júnior">
@@ -762,7 +636,6 @@
                         </div>
                     </div>
 
-                    <!-- RAPHINHA -->
                     <div class="carousel-item">
                         <div class="card-jogador">
                             <img src="img/convocados/raphinha.webp" alt="Raphinha">
@@ -773,14 +646,12 @@
                                     <p><strong>Idade:</strong> 29 anos</p>
                                     <p><strong>Posição:</strong> Ponta-direita</p>
                                     <p><strong>Títulos:</strong> La Liga e Supercopa da Espanha.</p>
-                                    <p><strong>Resumo:</strong> Conhecido pela velocidade e capacidade de finalização.
-                                    </p>
+                                    <p><strong>Resumo:</strong> Conhecido pela velocidade e capacidade de finalização.</p>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <!-- GABRIEL MARTINELLI -->
                     <div class="carousel-item">
                         <div class="card-jogador">
                             <img src="img/convocados/martineli.webp" alt="Gabriel Martinelli">
@@ -797,7 +668,6 @@
                         </div>
                     </div>
 
-                    <!-- MATHEUS CUNHA -->
                     <div class="carousel-item">
                         <div class="card-jogador">
                             <img src="img/convocados/cunha.webp" alt="Matheus Cunha">
@@ -814,7 +684,6 @@
                         </div>
                     </div>
 
-                    <!-- IGOR THIAGO -->
                     <div class="carousel-item">
                         <div class="card-jogador">
                             <img src="img/convocados/igor thiago.webp" alt="Igor Thiago">
@@ -831,7 +700,6 @@
                         </div>
                     </div>
 
-                    <!-- LUIZ HENRIQUE -->
                     <div class="carousel-item">
                         <div class="card-jogador">
                             <img src="img/convocados/luiz henrique.webp" alt="Luiz Henrique">
@@ -848,7 +716,6 @@
                         </div>
                     </div>
 
-                    <!-- ENDRICK -->
                     <div class="carousel-item">
                         <div class="card-jogador">
                             <img src="img/convocados/endrick.webp" alt="Endrick">
@@ -865,7 +732,6 @@
                         </div>
                     </div>
 
-                    <!-- RAYAN -->
                     <div class="carousel-item">
                         <div class="card-jogador">
                             <img src="img/convocados/rayan.webp" alt="Rayan">
@@ -882,84 +748,102 @@
                         </div>
                     </div>
 
-
                 </div>
 
-
-
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselConvocados"
-                    data-bs-slide="prev">
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselConvocados" data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
+                    <span class="visually-hidden">Anterior</span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselConvocados"
-                    data-bs-slide="next">
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselConvocados" data-bs-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
+                    <span class="visually-hidden">Próximo</span>
                 </button>
             </div>
-
         </section>
 
+        <!-- LOCALIZACAO -->
         <section id="localizacao">
             <h1>LOCALIZAÇÃO</h1>
-            <div id="contatosContainer">
-
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29174.202901255678!2d-46.405145299999994!3d-23.933007399999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce1bb29bde4aeb%3A0x8b65b60dcd73ad02!2sInstituto%20Federal%20de%20Educa%C3%A7%C3%A3o%2C%20Ci%C3%AAncia%20e%20Tecnologia%20de%20S%C3%A3o%20Paulo%2C%20Campus%20Cubat%C3%A3o!5e0!3m2!1spt-BR!2sbr!4v1781654705418!5m2!1spt-BR!2sbr"
-                    width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"></iframe>
-
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29174.202901255678!2d-46.405145299999994!3d-23.933007399999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce1bb29bde4aeb%3A0x8b65b60dcd73ad02!2sInstituto%20Federal%20de%20Educa%C3%A7%C3%A3o%2C%20Ci%C3%AAncia%20e%20Tecnologia%20de%20S%C3%A3o%20Paulo%2C%20Campus%20Cubat%C3%A3o!5e0!3m2!1spt-BR!2sbr!4v1781654705418!5m2!1spt-BR!2sbr"
+                width="800" height="450" style="border:0; border-radius: 12px; max-width:100%;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
         </section>
+
+        <!-- CONTATO -->
         <section id="contato">
             <h1>CONTATO</h1>
 
-            <form action="contato.php">
-                <input type="text" placeholder="Insira seu Nome">
-                <input type="email" required placeholder="Insira seu Email">
-                <textarea name="" id="" placeholder="Insira sua Mensagem"></textarea>
-                <div id="radioContato">
-                    <span>
-                        <input type="radio" name="melhorParte" id="parteInicio">
-                        <label for="parteInicio">Inicio</label>
-                    </span>
-                    <span>
-                        <input type="radio" name="melhorParte" id="parteCampeoes">
-                        <label for="parteInicio">Campeoes</label>
-                    </span>
-                    <span>
-                        <input type="radio" name="melhorParte" id="parteBrasil">
-                        <label for="parteInicio">Seleção Canarinho</label>
-                    </span>
-                    <span>
-                        <input type="radio" name="melhorParte" id="parteConvocados">
-                        <label for="parteInicio">Convocados</label>
-                    </span>
-                    <span>
-                        <input type="radio" name="melhorParte" id="parteLocalizacao">
-                        <label for="parteInicio">Localização</label>
-                    </span> <span>
-                        <input type="radio" name="melhorParte" id="parteContato">
-                        <label for="parteInicio">Contato</label>
-                    </span>
-                </div>
-                <input type="range" name="" id="">
+            <form action="contato.php" method="POST">
 
-                <input type="submit">
+                <input type="text" name="nome" id="nome" placeholder="Seu nome" required>
+                <input type="email" name="email" id="email" placeholder="Seu e-mail" required>
+                <textarea name="mensagem" id="mensagem" placeholder="Sua mensagem" rows="5"></textarea>
+
+                <div class="contato-bloco">
+                    <label class="contato-label">Qual foi sua parte favorita?</label>
+                    <div id="radioContato">
+                        <span>
+                            <input type="radio" name="melhorParte" id="parteInicio" value="inicio">
+                            <label for="parteInicio">Início</label>
+                        </span>
+                        <span>
+                            <input type="radio" name="melhorParte" id="parteCampeoes" value="campeoes">
+                            <label for="parteCampeoes">Campeões</label>
+                        </span>
+                        <span>
+                            <input type="radio" name="melhorParte" id="parteBrasil" value="brasil">
+                            <label for="parteBrasil">Seleção Canarinho</label>
+                        </span>
+                        <span>
+                            <input type="radio" name="melhorParte" id="parteConvocados" value="convocados">
+                            <label for="parteConvocados">Convocados</label>
+                        </span>
+                        <span>
+                            <input type="radio" name="melhorParte" id="parteLocalizacao" value="localizacao">
+                            <label for="parteLocalizacao">Localização</label>
+                        </span>
+                        <span>
+                            <input type="radio" name="melhorParte" id="parteContato" value="contato">
+                            <label for="parteContato">Contato</label>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="contato-bloco">
+                    <label for="avaliacao" class="contato-label">
+                        Avaliação do site: <span id="avaliacaoValor">5</span>/10
+                    </label>
+                    <input type="range" name="avaliacao" id="avaliacao" min="1" max="10" value="5"
+                        oninput="document.getElementById('avaliacaoValor').textContent = this.value">
+                </div>
+
+                <input type="submit" value="Enviar">
+
             </form>
-            </div>
         </section>
 
     </main>
 
     <footer>
-        <p>© 2026 Isaac Rogovski & Henrique Suarez</p>
+        <p>© 2026 Isaac Rogovski &amp; Henrique Suarez</p>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>
     <script src="script.js"></script>
+    <script>
+        const navToggle = document.getElementById('navToggle');
+        const navMenu = document.getElementById('navMenu');
+        navToggle.addEventListener('click', () => {
+            navMenu.classList.toggle('open');
+        });
+        // Fecha menu ao clicar em link
+        navMenu.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', () => navMenu.classList.remove('open'));
+        });
+    </script>
 </body>
 
 </html>
